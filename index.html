@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SnuggleCart 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🧸 SnuggleCart</div>
+
+    <nav>
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('clothes')">Clothes</button>
+        <button onclick="filterProducts('teddy')">Teddies</button>
+    </nav>
+
+    <div class="cart">
+        🛍 <span id="cart-count">0</span>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Welcome to Cute Shopping World 🎀</h1>
+    <p>Fashion & Teddy Gifts made with love 💗</p>
+</section>
+
+<section class="products">
+
+    <!-- Clothes -->
+    <div class="card clothes">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+        <h3>Soft White Top</h3>
+        <p>₹899</p>
+        <button onclick="addToCart(this)">Add to Bag 💕</button>
+    </div>
+
+    <div class="card clothes">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+        <h3>Floral Pink Dress</h3>
+        <p>₹1499</p>
+        <button onclick="addToCart(this)">Add to Bag 💕</button>
+    </div>
+
+    <!-- Teddy -->
+    <div class="card teddy">
+        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee">
+        <h3>Brown Cuddle Teddy</h3>
+        <p>₹799</p>
+        <button onclick="addToCart(this)">Add to Bag 💕</button>
+    </div>
+
+    <div class="card teddy">
+        <img src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8">
+        <h3>Pink Love Teddy</h3>
+        <p>₹999</p>
+        <button onclick="addToCart(this)">Add to Bag 💕</button>
+    </div>
+
+</section>
+
+<footer>
+    Made with 💖 | SnuggleCart 2026
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
